@@ -3,6 +3,7 @@ package main
 import (
 	"io"
 	"os"
+	"flag"
 )
 
 func Perform(args Arguments, writer io.Writer) error {
